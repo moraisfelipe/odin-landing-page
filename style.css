@@ -1,0 +1,115 @@
+body {
+    background-color: #FFFFFF;
+    /*padding: 0;
+    margin: 0;
+    text-align: center;*/
+    font-family: 'Roboto', arial;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+/* header part (head = navigation bar)*/
+.navbar {
+    display: flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    padding: 20px 100px 20px 100px;
+    /*padding: top right bottom left*/
+    align-items: center;
+}
+
+.header-logo img {
+    width: 160px;
+    height: 160px;
+    margin-right: auto;
+}
+
+.header-link {
+    display: flex;
+    margin-left: auto;
+}
+
+.header-link a {
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 10px;
+}
+
+
+/* Banner part*/
+.banner {
+    display:flex;
+    color: #F9FAF8;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+}
+
+.banner-content {
+    display:flex;
+    flex-direction: column;
+}
+
+.banner h1{
+    font-size: 48px;
+    font-weight: 800;
+    /*bold = 700, extra-bold = 800*/
+    
+}
+
+.banner-content p {
+    font-size: 18px;
+    opacity: 0.8;
+    /*padding: 10px;*/
+}
+
+.banner-image img{
+    width: 300px;
+    height: 300px;
+}
+/*
+
+.banner-content {
+    flex-basis: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+}
+
+
+.banner-content p {
+    font-family: 'Roboto', arial;
+    opacity: 0.7;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+    font-family: 'Roboto', arial;
+}
+
+
+.banner button {
+    display: block;
+    text-align: center;
+    width: 110px;
+    border: none;
+    background: #3882f6;
+    padding: 10px;
+    border-radius: 8px;
+    color: #fff;
+    font-family: 'Roboto', arial;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner-image img {
+    width: 500px;
+    height: 350px;
+}*/
